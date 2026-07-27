@@ -1,0 +1,15 @@
+{
+  "info": {
+    "_postman_id": "b3c51f31-8f82-4e3f-b3c9-18ab8ac41c5c",
+    "name": "Team Task Board",
+    "description": "Populate after the REST endpoints are manually implemented.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "{{apiBaseUrl}}"
+    }
+  ]
+}
