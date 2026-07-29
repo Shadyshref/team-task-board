@@ -8,8 +8,6 @@ build/
 *.tsbuildinfo
 
 # Environment files and secrets
-**/.env
-**/.env.*
 !**/.env.example
 !**/.env.test.example
 !**/.env.local.example
@@ -31,7 +29,6 @@ server/.windsurf/
 server/skills-lock.json
 
 # Editors and operating systems
-.vscode/
 .idea/
 .DS_Store
 Thumbs.db
@@ -42,3 +39,4 @@ desktop.ini
 .turbo/
 test-results/
 playwright-report/
+config.bat
