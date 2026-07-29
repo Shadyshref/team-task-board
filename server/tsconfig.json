@@ -24,6 +24,7 @@
     "tests/**/*.ts",
     "jest.config.ts",
     "prisma.config.ts",
+    "schema/**/*",
     "prisma/**/*.ts"
   ],
   "exclude": ["node_modules", "dist", "coverage", "src/generated"]

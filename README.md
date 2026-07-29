@@ -36,15 +36,15 @@ TypeScript 6.0.3 was selected instead of TypeScript 7 because the current typesc
 
 ## Environment setup
 
-1. Copy root `.env.example` to `.env` for Docker.
-2. Copy `server/.env.example` to `server/.env`.
-3. Copy `server/.env.test.example` to a local test environment file when tests are implemented.
-4. Copy `client/.env.local.example` to `client/.env.local`.
-5. Replace every placeholder secret before sharing or deploying.
+1. Copy `server/.env.example` to `server/.env` for the backend and Docker Compose.
+2. Copy `server/.env.test.example` to a local test environment file when tests are implemented.
+3. Copy `client/.env.local.example` to `client/.env.local`.
+4. Replace every placeholder secret before sharing or deploying.
 
 ## Database
 
 ```powershell
+cd server
 docker compose up -d postgres
 docker compose ps
 ```
